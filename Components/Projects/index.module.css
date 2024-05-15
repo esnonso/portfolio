@@ -73,7 +73,28 @@
     margin-left: 1rem;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 650px) and (max-width:899px){
+    .projects {
+            width: 45%
+        }
+    
+        .outer {
+            flex-direction: row;
+            padding: 1rem;
+        }
+    
+        .hospital,
+        .golden,
+        .fresh,
+        .country {
+            width: 65%;
+            height: 90%;
+            margin: auto 0;
+            border-radius: 5px;
+        }
+}
+
+@media screen and (min-width: 900px) {
     .projects{
         width:30%
     }
