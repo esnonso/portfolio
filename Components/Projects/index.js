@@ -23,7 +23,7 @@ export default function Projects() {
   return (
     <div className={classes.outer}>
       <div className={classes.projects}>
-        <PTags fontSize="40px" margin="1rem 0">
+        <PTags fontSize="25px" margin="1rem 0">
           My Projects
         </PTags>
 
