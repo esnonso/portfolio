@@ -51,6 +51,27 @@
     color: #C2B35E;
     margin-top:1rem;
 }
+
+@media screen and (min-width: 650px) and (max-width:899px){
+    .welcome{
+      padding: 0 0 0 1rem;;
+    }
+
+    .outer {
+        flex-direction: row;
+    }
+
+    .intro{
+        padding: 0 1rem;
+        border-width: 3px;
+        border-style: solid;
+        border-image:
+            linear-gradient(to bottom,
+                #C2B35E,
+                #847E7E)1 100%;
+    }
+}
+
 @media screen and (min-width: 900px) {
     .outer{
       flex-direction: row;
