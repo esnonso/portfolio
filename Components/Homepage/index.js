@@ -8,7 +8,9 @@ export default function Homepage() {
   return (
     <div className={classes.outer}>
       <div className={classes.welcome}>
-        <PTags fontSize="40px">Welcome</PTags>
+        <PTags fontSize="25px" margin="1rem">
+          Welcome
+        </PTags>
 
         <p className={classes.intro}>
           My name is Chinonso Nneli, based in Lagos Nigeria. I am an
@@ -21,9 +23,11 @@ export default function Homepage() {
         </Link>
       </div>
       <div className={classes.skills}>
-        <PTags fontSize="40px">Coding Skills</PTags>
+        <PTags fontSize="25px" margin="1rem">
+          Coding Skills
+        </PTags>
         {skills.map((item) => (
-          <Container width="100%" key={item.id}>
+          <Container width="100%" key={item.id} paddin="1rem">
             <PTags width="70%">{item.name}</PTags>
             <PTags width="30%">
               {stars.map((s, i) => {
