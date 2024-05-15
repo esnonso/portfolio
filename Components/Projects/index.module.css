@@ -36,7 +36,7 @@
 }
 
 .hospital, .golden, .fresh, .country{
-    display: block;
+    display: none;
     width:70%;
     height:90%;
     margin: auto 0;
@@ -74,8 +74,12 @@
     margin-left: 1rem;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
     .projects{
         width:30%
+    }
+
+    .hospital, .golden, .fresh, .country{
+        display: block;
     }
 }
